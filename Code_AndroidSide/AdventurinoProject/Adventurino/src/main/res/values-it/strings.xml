@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="action_settings">Salva Foto</string>
+    <string name="connect">Connetti</string>
+    <string name="dialog_title">Inserire il nome della foto</string>
+    <string name="dialog_content">Nome foto…</string>
+    <string name="hello_world">Salve mondo!</string>
+    <string name="takePicture">Mostra</string>
+    <string name="descImage">Immagine dalla macchina</string>
+    <string name="show_hide_ip">Mostra/Nascondi impostazioni IP</string>
+    <string name="accelerometer_opt">Accelerometro On/Off</string>
+
+</resources>

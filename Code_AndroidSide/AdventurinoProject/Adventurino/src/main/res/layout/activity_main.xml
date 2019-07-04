@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity">
+
+    <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/bck"-->
+            <!--android:id="@+id/buttonBck"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignRight="@+id/editTextIp"/>-->
+
+    <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/sx"-->
+            <!--android:id="@+id/buttonSx"-->
+            <!--android:layout_above="@+id/buttonBck"-->
+            <!--android:layout_toLeftOf="@+id/buttonBck"/>-->
+
+    <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/dx"-->
+            <!--android:id="@+id/buttonDx"-->
+            <!--android:layout_below="@+id/buttonFwd"-->
+            <!--android:layout_toRightOf="@+id/buttonBck"/>-->
+
+    <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/fwd"-->
+            <!--android:id="@+id/buttonFwd"-->
+            <!--android:layout_above="@+id/buttonSx"-->
+            <!--android:layout_toRightOf="@+id/buttonSx"/>-->
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_launcher"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/descImage"
+            android:layout_above="@+id/buttonConnect"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextIp"
+            android:text="@string/ip"
+            android:inputType="text"
+            android:layout_above="@+id/button"
+            android:layout_alignLeft="@+id/imageView"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/connect"
+            android:id="@+id/buttonConnect"
+            android:onClick="Connect"
+            android:layout_alignTop="@+id/editTextIp"
+            android:layout_alignParentRight="true"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/takePicture"
+            android:id="@+id/button"
+            android:onClick="btnPicture_click"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

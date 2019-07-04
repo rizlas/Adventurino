@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Adventurino</string>
+    <string name="fwd">Fwd</string>
+    <string name="dx">Dx</string>
+    <string name="sx">Sx</string>
+    <string name="bck">Bck</string>
+    <string name="ip">192.168.0.100</string>
+    <string name="connect">Connect</string>
+    <string name="descImage">Image From Camera</string>
+    <string name="takePicture">Show</string>
+    <string name="dialog_title">Insert the picture name</string>
+    <string name="dialog_content">Picture name…</string>
+    <string name="show_hide_ip">Show/Hide Ip config</string>
+    <string name="save_picture">Save Picture</string>
+    <string name="accelerometer_opt">Accelerometer On/Off</string>
+</resources>
